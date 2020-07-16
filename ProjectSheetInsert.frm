@@ -193,9 +193,7 @@ Public Function IsLetter(strValue As Variant) As Boolean
         End Select
     Next
 End Function
-
-
-
+      
 Private Sub UserForm_Initialize()
 
 'Empty FileName
@@ -209,7 +207,7 @@ With Folder
     .AddItem "Final"
     .AddItem "MKG"
     .AddItem "PA"
-    .AddItem "Tracey"
+    .AddItem "Director"
     .AddItem "Publish"
 End With
 Folder.Value = Null
@@ -225,6 +223,3 @@ vSF.Value = False
 FileName.SetFocus
 
 End Sub
-
-
-
