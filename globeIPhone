@@ -1,3 +1,6 @@
+//Write iPhone globe, by Adam Keefe, 2016-20
+//When run, the code outputs all relevant data to a iOS-app friendly format. This version differentiates from "globeIPad" in that all images but the first are linked to the cloud server in order to save on space.
+
 Sub WriteGlobeiPhone()
 
 Dim FilePathiPhone As String
